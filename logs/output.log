@@ -1,0 +1,5 @@
+06:59:44.504 [main] INFO  testCases.AC04_UploadFileTest - navigated to Upload File Page
+06:59:44.934 [main] TRACE testCases.AC04_UploadFileTest - actual Message: File Uploaded!
+06:59:44.934 [main] TRACE testCases.AC04_UploadFileTest - expected Message: File Uploaded!
+06:59:44.934 [main] INFO  testCases.AC04_UploadFileTest - **********Test case: AC04_UploadFileTest has been executed*********
+06:59:45.978 [main] INFO  resources.Driver - Closing the browser window

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13344" started-at="2018-02-16T06:59:32Z" finished-at="2018-02-16T06:59:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13344" started-at="2018-02-16T06:59:32Z" finished-at="2018-02-16T06:59:45Z">
+      <class name="testCases.AC02_LoginFailureTest">
+        <test-method status="PASS" signature="initializeBrowserAndProperties()[pri:0, instance:testCases.AC02_LoginFailureTest@384ad17b]" name="initializeBrowserAndProperties" is-config="true" duration-ms="0" started-at="2018-02-16T06:59:40Z" finished-at="2018-02-16T06:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowserAndProperties -->
+        <test-method status="PASS" signature="loginPageNavigation()[pri:0, instance:testCases.AC02_LoginFailureTest@384ad17b]" name="loginPageNavigation" duration-ms="2035" started-at="2018-02-16T06:59:40Z" finished-at="2018-02-16T06:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigation -->
+      </class> <!-- testCases.AC02_LoginFailureTest -->
+      <class name="testCases.AC01_LoginSuccessTest">
+        <test-method status="PASS" signature="initializeBrowserAndProperties()[pri:0, instance:testCases.AC01_LoginSuccessTest@dbf57b3]" name="initializeBrowserAndProperties" is-config="true" duration-ms="3799" started-at="2018-02-16T06:59:32Z" finished-at="2018-02-16T06:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowserAndProperties -->
+        <test-method status="PASS" signature="loginPageNavigation()[pri:0, instance:testCases.AC01_LoginSuccessTest@dbf57b3]" name="loginPageNavigation" duration-ms="3750" started-at="2018-02-16T06:59:36Z" finished-at="2018-02-16T06:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigation -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:testCases.AC01_LoginSuccessTest@dbf57b3]" name="cleanup" is-config="true" duration-ms="125" started-at="2018-02-16T06:59:45Z" finished-at="2018-02-16T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- testCases.AC01_LoginSuccessTest -->
+      <class name="testCases.AC04_UploadFileTest">
+        <test-method status="PASS" signature="initializeBrowserAndProperties()[pri:0, instance:testCases.AC04_UploadFileTest@441772e]" name="initializeBrowserAndProperties" is-config="true" duration-ms="0" started-at="2018-02-16T06:59:44Z" finished-at="2018-02-16T06:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowserAndProperties -->
+        <test-method status="PASS" signature="chooseAndUploadFile()[pri:0, instance:testCases.AC04_UploadFileTest@441772e]" name="chooseAndUploadFile" duration-ms="1767" started-at="2018-02-16T06:59:44Z" finished-at="2018-02-16T06:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseAndUploadFile -->
+      </class> <!-- testCases.AC04_UploadFileTest -->
+      <class name="testCases.AC03_ForgotPasswordTest">
+        <test-method status="PASS" signature="initializeBrowserAndProperties()[pri:0, instance:testCases.AC03_ForgotPasswordTest@61862a7f]" name="initializeBrowserAndProperties" is-config="true" duration-ms="0" started-at="2018-02-16T06:59:42Z" finished-at="2018-02-16T06:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowserAndProperties -->
+        <test-method status="PASS" signature="retrievePassword()[pri:0, instance:testCases.AC03_ForgotPasswordTest@61862a7f]" name="retrievePassword" duration-ms="1952" started-at="2018-02-16T06:59:42Z" finished-at="2018-02-16T06:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrievePassword -->
+      </class> <!-- testCases.AC03_ForgotPasswordTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
